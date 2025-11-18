@@ -10,7 +10,7 @@ Program dostaje przykładowe dane wejściowe i pożądane wyniki, a celem jest n
 * [Regresja wielomianowa]()
 
 ### Klasyfikacja
-* [Algorytm najbliższego sąsiada]()
+* [Algorytm najbliższego sąsiada](algorytm-najblizszego-sasiada.ipynb)
 * [Maszyny wektorów nośnych]()
 * [Drzewa decyzyjne](drzewa-decyzyjne.ipynb)
 
