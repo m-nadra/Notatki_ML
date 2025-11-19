@@ -11,7 +11,7 @@ Program dostaje przykładowe dane wejściowe i pożądane wyniki, a celem jest n
 
 ### Klasyfikacja
 * [Algorytm najbliższego sąsiada](algorytm-najblizszego-sasiada.ipynb)
-* [Maszyny wektorów nośnych]()
+* [Maszyny wektorów nośnych](maszyny-wektorow-nosnych.ipynb)
 * [Drzewa decyzyjne](drzewa-decyzyjne.ipynb)
 
 
