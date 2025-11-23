@@ -13,7 +13,7 @@ Program dostaje przykładowe dane wejściowe i pożądane wyniki, a celem jest n
 * [Algorytm najbliższego sąsiada](algorytm-najblizszego-sasiada.ipynb)
 * [Maszyny wektorów nośnych](maszyny-wektorow-nosnych.ipynb)
 * [Drzewa decyzyjne](drzewa-decyzyjne.ipynb)
-
+* [Klasyfikacja za pomocą sieci neuronowych](klasyfikacja-sieci-neuronowe.ipynb)
 
 ## Uczenie nienadzorowane (Unsupervised learning)
 Algorytm uczący się nie otrzymuje żadnych etykiet, aby znaleźć strukturę danych wejściowych. Nienadzorowane uczenie się może być celem samym w sobie (odkrywanie ukrytych wzorców w danych) lub środkiem do osiągnięcia celu (uczenie się cech).
