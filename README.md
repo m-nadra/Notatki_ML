@@ -6,7 +6,7 @@ Program dostaje przykładowe dane wejściowe i pożądane wyniki, a celem jest n
 
 ### Regresja
 * [Regresja liniowa](regresja-liniowa.ipynb)
-    * [Zejście gradientowe]()
+    * [Zejście gradientowe](zejscie-gradientowe.ipynb)
 * [Regresja wielomianowa]()
 
 ### Klasyfikacja
