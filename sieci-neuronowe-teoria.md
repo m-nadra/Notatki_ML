@@ -11,8 +11,9 @@ Zasada działania perceptronu:
 4. Otrzymany wynik podawany jest do **funkcji aktywacji**, a jej wynik jest przekazywany dalej.
 
 Obliczenia perceptronu można opisać za pomocą takiego wzoru: 
-$$ y = f\left(\sum_{i=1}^{n} w_i x_i + b \right) $$
-
+```math
+y = f\left(\sum_{i=1}^{n} w_i x_i + b \right)
+```
 
 ## Trening sieci neuronowej
 Trening sieci neuronowej polega na dobraniu wag i biasów perceptronów, tak aby uzyskać jak największą dokładność predykcji.
