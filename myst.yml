@@ -1,4 +1,3 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
   id: fd730bf2-d9ce-40ee-8a9c-5bf80c77c9dc
@@ -25,6 +24,7 @@ project:
             - file: algorytm-najblizszego-sasiada.ipynb
             - file: drzewa-decyzyjne.ipynb
             - file: maszyny-wektorow-nosnych.ipynb
+            - file: regresja-logistyczna.ipynb
     - title: Uczenie głębokie
       children:
         - file: sieci-neuronowe-teoria.md
