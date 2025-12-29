@@ -16,7 +16,20 @@ y = f\left(\sum_{i=1}^{n} w_i x_i + b \right)
 ```
 
 ## Trening sieci neuronowej
-Trening sieci neuronowej polega na dobraniu wag i biasów perceptronów, tak aby uzyskać jak największą dokładność predykcji.
+Trening sieci neuronowej polega na dobraniu wag i biasów perceptronów, tak aby zminimalizować funkcję błędu.
+
+Przebieg treningu wygląda następująco:
+
+1. Podziel dane na mniejsze paczki (**batche**).
+2. Dokonaj predykcji dla wszystkich danych w batchu (**feedforward**).
+3. Oblicz błąd.
+4. Oblicz gradient funkcji błędu (**backpropagation**), czyli pochodne funkcji błędu względem wag i biasów.
+5. Zaktualizuj wagi i biasy.
+6. Powtórz kroki 2-5 dla wszystkich batchy.
+
+Gdy wszystkie dane treningowe przejdą przez sieć neuronową, kończy się **epoka (epoch)**.
+
+Algorytmami wykorzystywanymi do aktualizacji wag (**optimizer**) są np. *Adam* lub *SGD (Stochastic Gradient Descent)*.
 
 ## Klasyfikacja sieci neuronowych 
 Podział sieci neuronowych ze względu na głębokość:
@@ -33,7 +46,8 @@ Zbudowane z jednej warstwy uczącej, bez warstw ukrytych.
 
 Warstwa wejściowa (pseudowarstwa) służy wyłącznie do wprowadzania danych. Nie przeprowadza żadnych obliczeń.
 
-![Płytka sieć neuronowa](img/Perceptron.png)
+![Płytka sieć neuronowa](img/Perceptron-light.svg#gh-light-mode-only)
+![Płytka sieć neuronowa](img/Perceptron-dark.svg#gh-dark-mode-only)
 
 Najprostszym przykładem takiej sieci jest pojedynczy perceptron.
 
