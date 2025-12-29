@@ -46,15 +46,14 @@ Zbudowane z jednej warstwy uczącej, bez warstw ukrytych.
 
 Warstwa wejściowa (pseudowarstwa) służy wyłącznie do wprowadzania danych. Nie przeprowadza żadnych obliczeń.
 
-![Płytka sieć neuronowa](img/Perceptron-light.svg#gh-light-mode-only)
-![Płytka sieć neuronowa](img/Perceptron-dark.svg#gh-dark-mode-only)
+![Płytka sieć neuronowa](img/Perceptron.svg)
 
 Najprostszym przykładem takiej sieci jest pojedynczy perceptron.
 
 ### Sieć MLP (Multi-Layer Perceptron)
 Sieć MLP może być siecią płaską lub głęboką.
 
-![Sieć MLP](img/MLP.png)
+![Sieć MLP](img/MLP.svg)
 
 W sieciach MLP perceptrony przekazują wyniki swoich obliczeń kolejnym perceptronom w następnych warstwach.
 
