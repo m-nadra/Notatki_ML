@@ -41,4 +41,5 @@ Etykiety generowane przez program na podstawie danych wejściowych są wykorzyst
 [**Podstawowe pojęcia związane z sieciami neuronowymi**](sieci-neuronowe-teoria.md)
 
 ### Przykłady wykorzystania uczenia głębokiego
-* [Klasyfikacja za pomocą sieci neuronowych](klasyfikacja-sieci-neuronowe.ipynb)
+* [Klasyfikacja za pomocą sieci MLP](klasyfikacja-sieci-neuronowe.ipynb)
+* [Klasyfikacja za pomocą sieci konwolucyjnych](klasyfikacja-CNN.ipynb)

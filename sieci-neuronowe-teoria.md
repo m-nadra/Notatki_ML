@@ -58,3 +58,28 @@ Sieć MLP może być siecią płaską lub głęboką.
 W sieciach MLP perceptrony przekazują wyniki swoich obliczeń kolejnym perceptronom w następnych warstwach.
 
 ### Konwolucyjne sieci neuronowe (CNN)
+Sieci konwolucyjne wykorzystują mechanizm konwolucji, który pozwala na wykrywanie wzorców.
+
+![Sieć CNN](img/CNN.svg)
+
+#### Warstwa konwolucyjna
+Każda warstwa konwolucyjna posiada filtry (kelner). Są to tensory, mniejsze rozmiarem od przetwarzanych danych.
+W wyniku mnożenia skalarnego danych z filtrem, otrzymujemy mapę cech (**feature map**).
+
+Paramatery warstwy konwolucyjnej:
+* Liczba filtrów i ich rozmiar (kernel-size)
+* Padding - definiuje czy filtrować również informację na brzegach.
+* Stride - co ile przesuwa się filtr
+* Dilatation - ile pikseli pomija się wewnątrz filtra
+
+Wizualizacja działania warstwy konwolucyjnej [tutaj](https://ezyang.github.io/convolution-visualizer/index.html). 
+
+#### Pooling
+Oprócz warstw konwolucyjnych, sieć może składać się z warstw redukcyjnych (**pooling layers**). Ich rolą jest zmniejszenie rozmiaru map cech, np. poprzez zastąpienie 4 pikseli zdjęcia jednym.
+
+Wyróżnia się dwa główne rodzaje poolingu:
+* Max pooling - wybiera największą wartość
+* Average pooling - oblicza średnią
+
+#### Fully Connected (FC)
+Na końcu sieci konwolucyjneje najczęściej umieszcza się warstwy gęste (**Fully Connected**), które po operacji spłaszczenia map cech realizują obliczenia analogiczne do sieci MLP i odpowiadają za predykcję.
