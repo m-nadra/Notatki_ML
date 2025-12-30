@@ -29,6 +29,7 @@ project:
       children:
         - file: sieci-neuronowe-teoria.md
         - file: klasyfikacja-sieci-neuronowe.ipynb
+        - file: klasyfikacja-CNN.ipynb
 site:
   template: book-theme
   nav:
